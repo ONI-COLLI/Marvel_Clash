@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARVEL CLASH</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="playfield">
+      <button id="open_modal">?</button>
+      <div id="modal_overlay" style="display: none">
+        <div id="modal_window">
+          <div class="modal_content">
+            <h1>Добро пожаловать на мой сайт для хакатона!</h1>
+            <br />
+            <p>
+              Этот сайт посвящён вселенной Marvel и создан в виде простой
+              карточной игры с любимыми супергероями. Здесь можно почувствовать
+              дух комиксов и поиграть в лёгкий карточный баттл с визуальным
+              акцентом на стиль и атмосферу Marvel.
+            </p>
+            <br />
+            <p>
+              В процессе работы я активно использовал ресурсы вроде YouTube,
+              открытые интернет-источники, ChatGPT, Recraft AI, и даже DeepSeek
+              — всё, что могло помочь в поиске решений и вдохновений.
+            </p>
+            <br />
+            <p>
+              Сайт находится в ранней стадии разработки — присутствуют баги, он
+              не оптимизирован и далёк от идеала. Но для хакатона главное — идея
+              и её реализация, пусть и с недочётами.
+            </p>
+            <br />
+            <p>
+              Проект стал отличной возможностью прокачать навыки, попробовать
+              новое и воплотить давнюю идею о карточной игре с супергероями в
+              реальность. Было интересно работать с графикой, анимациями и
+              разметкой — даже если не всё получилось идеально.
+            </p>
+            <br />
+            <p>F12 действия игрока и ИИ</p>
+            <button id="close_modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+      <div id="your_deck" class="deck"></div>
+      <div id="enemy_deck" class="deck"></div>
+      <div id="your_mana" class="mana_bar"></div>
+      <div id="enemy_mana" class="mana_bar"></div>
+      <div id="turn_display"></div>
+    </section>
+    <script src="./heroes.js"></script>
+  </body>
+</html>
